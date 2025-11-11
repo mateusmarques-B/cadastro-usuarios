@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+* {
+  @apply font-[Roboto];
+}
+
+@layer utilities {
+  .body-gradient {
+    background: linear-gradient(
+      120deg,
+      rgb(38, 35, 133) 0%,
+      rgba(44, 43, 77, 0.8) 100%
+    );
+  }
+}
+
+form > input {
+  @apply border border-solid border-[#48456c] rounded-4xl h-10 bg-[#363653] text-white
+  text-base pl-2.5 outline-none;
+}

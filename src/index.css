@@ -1,0 +1,18 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    120deg,
+    rgb(38, 35, 133) 0%,
+    rgba(44, 43, 77, 0.8) 100%
+  );
+}
+*/
